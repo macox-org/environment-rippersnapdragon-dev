@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:rippersnapdragon/adminUser:password
+  username: admin
+dashboardUrl: https://example.com
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:rippersnapdragon/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:rippersnapdragon/prow:hmacToken
+segmentWriteKey: vault:rippersnapdragon:segmentWriteKey
